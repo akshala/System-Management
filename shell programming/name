@@ -1,0 +1,4 @@
+#!bin.sh
+var = 'abc'
+echo 'my name' $var
+

@@ -1,0 +1,10 @@
+#!/bin/sh
+for i in {1..20}
+do
+	rem=$(($i%2))
+	if["$rem" -ne "0"]; then
+		echo $i
+	fi
+done
+ 
+
